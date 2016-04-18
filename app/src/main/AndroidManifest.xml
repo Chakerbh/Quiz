@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tn.chaker.ProjetAndroid.tn">
+
+
+
+    <supports-screens
+        android:resizeable="true"
+        android:smallScreens="false"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="false"/>
+
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+<!--
+       <activity android:name=".TestActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> -->
+
+
+        <activity android:name="tn.chaker.ProjetAndroid.tn.SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="tn.chaker.ProjetAndroid.tn.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="tn.chaker.ProjetAndroid.tn.QuestionActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="tn.chaker.ProjetAndroid.tn.ResultActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="tn.chaker.ProjetAndroid.tn.HighScoreActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="tn.chaker.ProjetAndroid.tn.AboutActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

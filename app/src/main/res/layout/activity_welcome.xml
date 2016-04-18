@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5EB685"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <Button
+        android:text="@string/plays"
+        android:id="@+id/playbtn"
+        android:textColor="#FFFEFA"
+        android:textSize="30sp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginBottom="99dp"
+        android:layout_x="71dp"
+        android:layout_y="186dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/hsbtn"
+        android:text="@string/high_score_st"
+        android:textColor="#FFFEFA"
+        android:textSize="30sp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginBottom="99dp"
+        android:layout_x="74dp"
+        android:layout_y="252dp" />
+
+    <Button
+        android:text="@string/exit_s"
+        android:id="@+id/exitbtn"
+        android:textColor="#FFFEFA"
+        android:textSize="30sp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginBottom="99dp"
+        android:layout_x="76dp"
+        android:layout_y="383dp" />
+
+    <Button
+        android:text="@string/about"
+        android:id="@+id/aboutbtn"
+        android:textColor="#FFFEFA"
+        android:textSize="30sp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginBottom="99dp"
+        android:layout_x="76dp"
+        android:layout_y="317dp"/>
+
+    <ImageView
+        android:layout_width="261dp"
+        android:layout_height="261dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/welcome"
+        android:layout_x="52dp"
+        android:layout_y="-60dp" />
+
+
+</AbsoluteLayout>
